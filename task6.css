@@ -1,0 +1,54 @@
+.div1{
+    background-color: grey;
+}
+
+/* li{
+    list-style-type: none;
+    text-align: center;
+    padding: 30px;
+} */
+.flex {
+    display: flex;
+    flex-direction: row;
+    /* font-size: 30px; */
+    text-align: center;
+  }
+
+.one {
+    
+    background-color: lightgreen;
+    padding: 30px;
+    flex: 100%;
+    text-align: center;
+  }
+
+  .rest {
+    background-color: goldenrod;
+    padding: 30px;
+    flex: 50%;
+  }
+
+  
+
+@media (min-width: 600px) and (max-width: 700px) {
+
+    .rest {
+        flex-direction: column;
+        background-color: goldenrod;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .flex {
+      flex-direction: column;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 1200px) {
+
+    .rest {
+        flex-direction: column;
+        background-color: goldenrod;
+    }
+  }
+  

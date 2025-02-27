@@ -1,0 +1,80 @@
+aside{
+    background-color: rgb(136, 166, 197);
+    font-style: italic;
+    font-size: medium;
+    float: right;
+    width: 43%;
+    margin-left: 6px;
+    padding: 26px;
+}
+
+#content{
+    background-color: rgb(180, 191, 203);
+    font-style:oblique;
+    font-size: medium;
+    /* float: right; */
+    width: 52%;
+    margin-right: 2px;
+    padding: 19px;
+}
+
+.footerStyle{
+    text-align: center;
+    background-color: dimgrey;
+    padding: 20px;
+    color: lightgrey;
+}
+
+.navigation{
+    background-color: dimgray;
+    padding: 1px;
+}
+
+/* li{
+    display: inline;
+    text-align: center;
+    color: lightgrey;
+    margin-right: 50px;
+    text-decoration: none;
+} */
+
+li {
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline;
+}
+
+li a:hover{
+    color: brown;
+}
+
+nav{
+    text-align: center;
+    /* display: inline */
+}
+
+body{
+    background-color: rgb(206, 206, 206);
+}
+
+.heading{
+    padding: 10px;
+    color:rgb(1, 1, 39);
+}
+
+.image{
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 20px;
+}
+
+.follow{
+    font-style:italic;
+}
